@@ -32,7 +32,7 @@ diabetes = datasets.load_diabetes(as_frame=True)
 print(diabetes['DESCR']) 
 ```
 
-... y haremos realizaremos algunos ajustes a su estructura para que sea un poco más _tratable_: 
+... y realizaremos algunos ajustes a su estructura para que sea un poco más _tratable_: 
 
 ```python
 diabetes = pd.concat((diabetes['data'], diabetes['target']), axis='columns')
