@@ -19,3 +19,5 @@ Podemos imprimir los valores de ordenada al origen (`intercept_`) y toda la info
 print("Intercept:", modelo.intercept_)
 print("Coeficiente:", list(zip(X.columns, modelo.coef_.flatten())))
 ```
+
+> Probá el código anterior y respondé. ¿Cuál de las ecuaciones representa al modelo obtenido?

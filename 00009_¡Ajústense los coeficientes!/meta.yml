@@ -1,11 +1,21 @@
 ---
 locale: es
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: single_choice
 type: problem
 extra_visible: false
+language: text
 teacher_info: ''
 manual_evaluation: false
-choices: []
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`response = 949.4352603839491 +  152.1334841628967 × body_mass_index`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`response = 152.1334841628967 + 949.4352603839491 × body_mass_index`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`body_mass_index = 949.4352603839491 +  152.1334841628967 × response`"
+  checked: false
 name: "¡Ajústense los coeficientes!"
