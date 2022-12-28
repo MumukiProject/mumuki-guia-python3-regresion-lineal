@@ -2,7 +2,7 @@ Si bien cuando realizamos una _regresión lineal simple_ partimos de la suposici
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_ideal_1672261074446.png" alt="lineal_ideal_1672261074446.png" width="auto" height="auto">
 
-...las observaciones _muy_ rara vez (o mas bien, nunca :laughing:) cumplirán con esta idealidad. Mas bien, nuestros datos se verán así :disappointed::
+...las observaciones _muy_ rara vez (bah, nunca :laughing:) cumplirán con esta idealidad. Mas bien, nuestros datos se verán así :disappointed::
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_noisy_1672261280083.png" alt="lineal_noisy_1672261280083.png" width="auto" height="auto">
 
