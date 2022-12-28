@@ -18,7 +18,8 @@ choices:
     están sesgados, esos sesgos se transferirián al modelo resultante
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las empresas rara vez colectan datos de sus usuarios
+  value: Las empresas rara vez recolectan datos de sus clientes y las personas que
+    las usan
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: La privacidad de la información es un problema únicamente relevante para
