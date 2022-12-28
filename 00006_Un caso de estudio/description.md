@@ -44,4 +44,4 @@ del diabetes['s5']
 diabetes
 ```
 
-> ¡Ahora te toca a vos!: ejecutá el código anterior en un nuevo cuaderno y luego continuá al siguiente ejercicio. 
+> Ahora te toca a vos: ejecutá el código anterior en un nuevo cuaderno y luego continuá al siguiente ejercicio. 
