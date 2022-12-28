@@ -6,5 +6,5 @@ El aprendizaje automático es parte de una rama más amplia de las ciencias de l
  * [Inteligencia artificial: ¿amiga o enemiga?](https://www.youtube.com/watch?v=znq3ql6wqnE)
  * [¿Estamos automatizando el racismo?](https://www.youtube.com/watch?v=Ok5sKLXqynQ)
 
-> ¿Qué conclusiones podés extraer de los videos anteriores?
+> ¿Qué conclusiones podés extraer de los videos anteriores? :thought_balloon:
 
