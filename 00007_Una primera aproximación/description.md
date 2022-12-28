@@ -7,7 +7,7 @@ correlaciones = diabetes.corr()
 correlaciones
 ```
 
-Esta matriz mostrará, por cada par de variables, cuán relacionadas están en una escala de -1 a 1, siendo: 
+Esta matriz mostrará, por cada par de variables, cuán relacionadas están en una escala de `-1` a `1`, siendo: 
 
 * `1`: altamente correlacionadas y directamente proporcionales. Si una variable crece, la otra también;
 * `0`: sin ningún tipo de correlación. Los cambios en una no parecen influir en la otra;
