@@ -13,4 +13,4 @@ La primera técnica de aprendizaje automático que veremos nos permitirá realiz
 
 Dentro de este estudio nos enfocaremos en un tipo de relación:  **lineal**. Este método estadístico se usa para describir una variable continua como una función de una o varias variables independientes, mediante el ajuste de una ecuación, justamente, lineal.
 
-> Desempolvemos (si es que están bajo polvo, claro 🤧) nuestros conocimientos matemáticos. Si tratáramos de emplear regresión lineal para predecir `y` en función de una única variable, ¿cuál debería ser la forma de nuestra `f(x)`?
+> ¡Desempolvemos (si es que están bajo polvo, claro 🤧) nuestros conocimientos matemáticos! Si tratáramos de emplear regresión lineal para predecir `y` en función de una única variable, ¿cuál debería ser la forma de nuestra `f(x)`? :thinking:
