@@ -15,5 +15,5 @@ Para generalo, podés hacer lo siguiente:
 sns.heatmap(correlaciones.abs())
 ```
 
-¡Probalo y continuá al siguiente ejercicio!
+:wave: Probalo y nos vemos en el siguiente ejercicio.
   
