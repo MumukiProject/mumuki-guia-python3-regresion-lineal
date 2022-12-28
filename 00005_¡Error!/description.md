@@ -7,7 +7,7 @@ Si bien cuando realizamos una _regresión lineal simple_ partimos de la suposici
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_noisy_1672261280083.png" alt="lineal_noisy_1672261280083.png" width="auto" height="auto">
 
 
-Como cada valor valor se aparta de la _recta ideal_ en un valor aleatorio de error (`ε`), es que la ecuación general correspondiente a un modelo de regresión lineal simple será más bien la siguiente:
+Como cada valor se aparta de la _recta ideal_ en un valor aleatorio de error (`ε`), es que la ecuación general correspondiente a un modelo de regresión lineal simple será más bien la siguiente:
 
 <pre>
 <code>f(x) = b + m × x + ε</code>
