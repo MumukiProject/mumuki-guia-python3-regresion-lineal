@@ -11,6 +11,6 @@ La primera técnica de aprendizaje automático que veremos nos permitirá realiz
 * 🏘 A partir de un lote de datos de hogares con columnas `precio`, `antigüedad`, `superficie`, podríamos intentar explicar el `precio` (variable `y`) en función de las otras dos (variables <code>x<sub>1</sub></code> y <code>x<sub>2</sub></code>)
 * 🌊 A partir de un lote de datos de mediciones oceanográficas, podríamos intentar establecer un vínculo entre `temperatura` y `salinidad` del agua marina, y predecir la primera (`y`) en función de la segunda (`x`) (o al revés, dependiendo del contexto).
 
-Y dentro de este estudio nos enfocaremos en un tipo de relación:  **lineal**. Este método estadístico se usa para describir una variable continua como una función de una o varias variables independientes, mediante el ajuste de una ecuación, justamente, lineal.
+Dentro de este estudio nos enfocaremos en un tipo de relación:  **lineal**. Este método estadístico se usa para describir una variable continua como una función de una o varias variables independientes, mediante el ajuste de una ecuación, justamente, lineal.
 
 > Para pensar: desempolvemos (si es que están bajo polvo, claro 🤧) nuestros conocimientos matemáticos. Si tratáramos de emplear regresión lineal para predecir `y` en función de una única variable, ¿cuál debería ser la forma de nuestra `f(x)`?
