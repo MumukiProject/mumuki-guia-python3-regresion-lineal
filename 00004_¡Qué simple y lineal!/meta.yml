@@ -10,13 +10,13 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: f(x) = b × m + x
+  value: "<code>f(x) = b × m + x</code>"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: f(x) = b + m × x
+  value: "<code>f(x) = b + m × x</code>"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: f(x) = x<sup>2</sup> + x
+  value: "<code>f(x) = x<sup>2</sup> + x</code>"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: f(x) = m / x + b
