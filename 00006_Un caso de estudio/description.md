@@ -50,4 +50,4 @@ del diabetes['s5']
 diabetes
 ```
 
-> :woman_construction_worker::man_construction_worker: Manos a la obra: copiá y ejecutá **todo** el código anterior en un nuevo cuaderno y luego continuá al siguiente ejercicio. 
+> :woman_construction_worker::man_construction_worker: Manos a la obra: copiá y ejecutá **todo** el código anterior en un nuevo cuaderno. Luego seleccioná cuáles de las siguientes afirmaciones son válidas. 
