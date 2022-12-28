@@ -1,11 +1,24 @@
 ---
 locale: es
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: multiple_choice
 type: problem
 extra_visible: false
+language: text
 teacher_info: ''
 manual_evaluation: false
-choices: []
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La edad (`age`) no es un factor con fuerte influencia en el desarrollo de
+    la enfermedad
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El sexo biológico (`sex`) no es un factor con fuerte influencia en el desarrollo
+    de la enfermedad
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El índice de masa corporal (`body_mass_index`) es el factor que mas influye
+    en el desarrollo de la enfermedad
+  checked: true
 name: Una primera aproximación
