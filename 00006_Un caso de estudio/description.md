@@ -16,6 +16,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
+# configuraciones opcionales para hacer a nuestros gráficos más "bonitos"
 plt.rcParams['image.cmap'] = "bwr"
 plt.rcParams['savefig.bbox'] = "tight"
 plt.style.use('ggplot')
