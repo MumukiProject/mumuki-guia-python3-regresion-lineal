@@ -1,0 +1,11 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: text
+type: problem
+extra_visible: false
+teacher_info: ''
+manual_evaluation: false
+choices: []
+name: Es un error normal
