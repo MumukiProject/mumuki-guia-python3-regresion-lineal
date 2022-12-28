@@ -11,3 +11,6 @@ Una primera aproximación a las dos primeras preguntas:
 print("Coeficiente de determinación R^2:", modelo.score(X, y)) 
 ```
 
+En los modelos de regresión lineal simple el valor de R2 se corresponde con el cuadrado del coeficiente de correlación de Pearson (r) entre x e y, no siendo así en regresión múltiple.
+
+> En base a este resultado. ¿Cuán bueno resultó el modelo?
