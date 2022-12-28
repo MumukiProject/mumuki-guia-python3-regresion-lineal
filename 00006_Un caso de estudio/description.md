@@ -21,7 +21,7 @@ plt.rcParams['savefig.bbox'] = "tight"
 plt.style.use('ggplot')
 ```
 
-Luego, procederemos a cargar el lote de datos que nos interesa. 🎁 En este caso, lo obtendremos de la propia biblioteca `scikit-learn`, que lo trae de regalo entre sus datos de ejemplo ...
+Luego, procederemos a cargar el lote de datos que nos interesa. En este caso, lo obtendremos de la propia biblioteca `scikit-learn`, que lo trae de regalo 🎁 entre sus datos de ejemplo...
 
 ```python
 from sklearn import datasets
