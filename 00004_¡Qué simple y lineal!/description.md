@@ -6,7 +6,7 @@ La primera técnica de aprendizaje automático que veremos nos permitirá realiz
 <code>y = f(x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>)</code>
 </pre>
 
-...donde la `y` y las `x`s representan variables aleatorias.  `y` es aquella que intentaremos predecir, y el vector <code>X = (x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>)</code> el conjunto que intentará explicarla. Algunos ejemplos: 
+...donde la `y` y las `x`s representan variables aleatorias: `y` es aquella que intentaremos predecir, y el vector <code>X = (x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>)</code> el conjunto que intentará explicarla. Algunos ejemplos: 
 
 * 🏘 A partir de un lote de datos de hogares con columnas `precio`, `antigüedad`, `superficie`, podríamos intentar explicar el `precio` (variable `y`) en función de las otras dos (variables <code>x<sub>1</sub></code> y <code>x<sub>2</sub></code>)
 * 🌊 A partir de un lote de datos de mediciones oceanográficas, podríamos intentar establecer un vínculo entre `temperatura` y `salinidad`, y predecir la primera (`y`) en función de la segunda (`x`) (o al revés, dependiendo del contexto).
