@@ -13,7 +13,7 @@ modelo = LinearRegression()
 modelo.fit(X = X, y = y)
 ```
 
-Podemos imprimir los valores de ordenada al origen (intercept_) y toda la información de nuestro modelo haciendo:
+Podemos imprimir los valores de ordenada al origen (`intercept_`) y toda la información de nuestro modelo haciendo:
 
 ```python
 print("Intercept:", modelo.intercept_)
