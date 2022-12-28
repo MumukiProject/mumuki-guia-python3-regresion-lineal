@@ -13,5 +13,5 @@ Esta matriz mostrará, por cada par de variables, cuán relacionadas están en u
 * `0`: sin ningún tipo de correlación. 🤷 Los cambios en una no parecen influir en la otra;
 * `-1`: altamente correlacionadas e inveramente propocionales. ↘️ Si una variable crece, la otra decrece.  
 
-> Generá la matriz de correlación y marcá cuales afirmaciones son correctas.
+> Generá la matriz de correlación y marcá cuales afirmaciones sobre la columna `response` (un valor que indica el grado de avance de la enfermedad para cada paciente) son correctas.
 
