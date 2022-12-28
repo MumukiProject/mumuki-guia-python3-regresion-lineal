@@ -9,7 +9,7 @@ Si al correr estas líneas no se produce ningún `ModuleNotFoundError`, ¡entonc
 
 ```bash
  !pip install seaborn
- !pip install sklearn
+ !pip install scikit-learn
 ```
 
 ¡Y listo! 🎉
