@@ -1,4 +1,4 @@
-¡Muy bien! Si nos basamos exclusivamente en la correlación, _parece_ que las personas con mayor índice de masa corporal presentan un mayor desarrollo de la enfermedad. Esto lo podemos afirmar porque: 
+¡Excelente! :confetti_ball: Si nos basamos exclusivamente en la correlación, _parece_ que las personas con mayor [índice de masa corporal](https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal) presentan un mayor desarrollo de la enfermedad. Esto lo podemos afirmar porque: 
 
   * En términos absolutos, la correlación entre estas dos variables es mayor a `0.5` (recordemos que `0` representa la no-correlación y `1`, la correlación máxima); 
   * Y además la correlación es positiva, lo que indica una relación directa. 
