@@ -3,3 +3,6 @@ La tabla anterior puede resultar abrumadora al princpio :sweat:. Dado que sólo 
 ```python
 correlaciones['response']
 ```
+
+Por otro lado, para cada variable la matriz de correlación incluye en su diagonal la correlación ella y sí misma, que siempre será `1` y no nos apora información. 
+

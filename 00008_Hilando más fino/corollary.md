@@ -10,7 +10,19 @@ diabates.corr('pearson')
 Pero bien se podría usar otro método, como por ejemplo el coeficiente de correlación de Spearman: 
 
 ```
-diabetes.corr("spearman")['response']
+ム diabetes.corr("spearman")['response']
+age                          0.197822
+sex                          0.037401
+body_mass_index              0.561382
+average blood pressure       0.416241
+total_serum_cholesterol      0.232429
+low_density_lipoproteins     0.195834
+high_density_lipoproteins   -0.410022
+total_cholesterol            0.448931
+blood_sugar_level            0.350792
+response                     1.000000
+
+
 
 
 
