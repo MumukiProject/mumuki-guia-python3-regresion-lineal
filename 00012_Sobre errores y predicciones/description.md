@@ -4,9 +4,9 @@ Como mencionamos anteriormente, el método más utilizado para el ajuste del mod
 <code>ε<sup>2</sup> = ∑ (yi - ŷi)<sup>2</sup></code>
 </pre>
 
-...donde  <code>y<sub>i</sub></code> son los valores observados e <code>ŷ<sub>i</sub></code>, los valores estimados. 
+...donde <code>y<sub>i</sub></code> son los valores observados e <code>ŷ<sub>i</sub></code>, los valores estimados. 
 
-Pero esta fórmula tiene una doble utilidad, porque podemos partir de ella para generar otro parámetro de la bondad del modelo: la raíz del error cuadrático medio (_RMSE_, por sus siglas en inglés). El RMSE mide justamente la raíz cuadrada del error (<code>∑ (yi - ŷi)<sup>2</sup></code>), promediado. Nuevamente `scikit-learn` nos provee una función `mean_squared_error` para asistirnos con este cálculo:
+Pero esta fórmula tiene una doble utilidad, porque podemos partir de ella para generar otro parámetro de la bondad del modelo 😇: la raíz del error cuadrático medio (_RMSE_, por sus siglas en inglés). RMSE mide justamente la raíz cuadrada del error (<code>∑ (yi - ŷi)<sup>2</sup></code>), promediado. Nuevamente `scikit-learn` nos provee una función `mean_squared_error` para asistirnos con este cálculo:
 
 ```python
 y_pred = modelo.predict(X = X_test)
