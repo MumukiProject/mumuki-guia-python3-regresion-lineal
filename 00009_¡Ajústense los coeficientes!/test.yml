@@ -1,2 +1,2 @@
 ---
-equal: "`response = 152.1334841628967 + 949.4352603839491 × body_mass_index`"
+equal: "`response = 152.13 + 949.43 × body_mass_index`"
