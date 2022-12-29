@@ -8,10 +8,11 @@
 <code>X = (x<sub>1</sub>, x<sub>2</sub>,..., x<sub>n</sub>)</code>
 </pre>
 
-...y obtener un vector de coficientes (`coef_`)...
+...y obtener una intersección (`intercept_`) y vector de coficientes (`coef_`)...
 
 <pre>
-<code>coef_ = (β<sub>1</sub>, β<sub>2</sub>, ,..., β<sub>n</sub></code>
+<code>intercept_ = β<sub>0</sub></code>
+<code>coef_ = (β<sub>1</sub>, β<sub>2</sub>, ,..., β<sub>n</sub></code>)
 </pre>
 
 ...con el que conformará la expresión lineal: 

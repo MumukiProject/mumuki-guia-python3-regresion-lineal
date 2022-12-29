@@ -1,8 +1,8 @@
 Ahora que validamos gráfica y numéricamente que la correlación es significativa (aunque no muy fuerte, tan sólo ≈ `0.6`), podemos finalmente desarrollar (o como se suele decir frecuentemente, _ajustar_) nuestro modelo de regresión lineal simple. :raised_hands:  
 
-Ajustar al modelo consiste en estimar, a partir de los datos disponibles:
+💺 Ajustar al modelo consiste en estimar, a partir de los datos disponibles:
 
- - la recta que minimice la distancia `ε` entre las observaciones de `x` y ésta
+ - la recta que minimice la distancia `ε` entre las observaciones de `x` y ésta;
  - encontrar los valores de los coeficientes de regresión que maximizan la probabilidad de que la recta prediga los valores observados.
 
 El método  más utilizado para ésto es el de mínimos cuadrados ordinarios (o _OLS_, por sus siglas en inglés) y `sckit-learn` lo implementa mediante `LinearRegression()`:
