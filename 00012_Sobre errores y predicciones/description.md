@@ -6,3 +6,19 @@ Es  decir,  la  suma  de  los  cuadrados  de  las  diferencias  entre  los  valo
 
 
 ¿Pero cómo podemos saber si las predicciones son buenas o malas? Pues podemos calcular el error, teniendo en cuenta el valor predicho y respecto de un valor observado o conocido. El error cuadrático medio (RMSE) mide la cantidad de error que hay entre dos conjuntos de datos:
+
+```python
+# gracias a la division train test, nos permite contrastar 
+y_pred = modelo.predict(X = X_test)
+
+rmse = mean_squared_error(
+        y_true  = y_test,
+        y_pred  = y_pred,
+        squared = False
+       )
+
+print("El error (rmse) de test es:", rmse)
+
+```
+
+> Calculá el valor de `RMSE`
