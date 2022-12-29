@@ -10,4 +10,4 @@ La operación `score` de nuestro `modelo` nos retornará justamente esta métric
 print("Coeficiente de determinación R²:", modelo.score(X.values, y)) 
 ```
 
-> En base a este resultado. ¿Cuán bueno resultó el modelo?
+> Obtené <code>R<sup>2</sup></code> y en base a este resultado, respondé: ¿cuán bueno resultó el modelo?
