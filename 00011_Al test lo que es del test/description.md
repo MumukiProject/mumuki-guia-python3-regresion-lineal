@@ -9,12 +9,12 @@ X = diabetes[['body_mass_index']]
 y = diabetes['response']
 
 X_train, X_test, y_train, y_test = train_test_split(
-                                        X.values.reshape(-1,1),
-                                        y.values,
-                                        train_size   = 0.8,
-                                        random_state = 1, 
-                                        shuffle      = True
-                                    )
+  X.values.reshape(-1,1),
+  y.values,
+  train_size   = 0.8,
+  random_state = 42,  
+  shuffle      = True
+)
 ```                                    
 
 Luego, usaremos el par `(X_train, y_train)` para ajustar los coeficientes de nuestro regresor...
