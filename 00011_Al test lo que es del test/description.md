@@ -24,7 +24,7 @@ print("Ordenada:", modelo.intercept_)
 print("Pendiente:", list(zip(X.columns, modelo.coef_.flatten())))
 ```
 
-...pero ahora evaluaremos podemos evaluar la capacidad predictiva usando el par `(X_test, y_test)`:
+...pero ahora evaluaremos la capacidad predictiva usando el par `(X_test, y_test)`:
 
 ```python
 print("Coeficiente de determinación R²:", modelo.score(X_test.values, y_test))
