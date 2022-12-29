@@ -1,16 +1,13 @@
-¿Terminamos? Sí y no. Si bien por un lado, establecer que existe un vínculo entre ambas variables (correlación ~~ 0.6) y que dicho vínculo no parece el mero producto del azar (p-value >> 0.05), y por otro pudimos aproximarlo a una recta, aún estamos lejos de haber evaluado completamente al modelo. 
+¿Terminamos? Sí y no :person_shrugging:. Si bien por un lado pudimos establecer que existe un vínculo entre ambas variables (`corr ≈ 0.6`) y que dicho vínculo no parece el mero producto del azar (`pvalue ≪ 0.05`), y por otro pudimos aproximarlo a una recta, aún estamos lejos de haber evaluado completamente al modelo. 🙃 
 
-Por ejemplo: ¿Cuán bueno es? ¿Los datos caen efectivamente en la recta? ¿Cuánto se alejan de ella?
+❓ ¡Es que aún hay muchas cosas que no sabemos! Por ejemplo: ¿cuán bueno es el modelo? ¿Los datos caen efectivamente en la recta? ¿Cuánto se alejan de ella? 
 
-Una primera aproximación a las dos primeras preguntas: 
+Una primera aproximación a las dos primeras preguntas es utilizar la métrica <code>R<sup>2</sup></code>, que nos indica cuán bueno es el ajuste del modelo.Esta medida estadística oscila entre `0` (los datos predicho no se ajustan a las observaciones) y `1` (los datos predichos se ajustan perfectamente a las observaciones). 
 
+La operación `score` de nuestro `modelo` nos retornará justamente esta métrica (que dicho sea de paso, en los modelos de regresión lineal **simple** su valor se corresponde con el cuadrado de la correlación de Pearson 💡): 
+ 
+```python
+print("Coeficiente de determinación R²:", modelo.score(X.values, y)) 
 ```
-# R2 is a measure of the goodness of fit of a model.[11] In regression, 
-# the R2 coefficient of determination is a statistical measure of how well the regression predictions approximate
-# the real data points. An R2 of 1 indicates that the regression predictions perfectly fit the data. 
-print("Coeficiente de determinación R^2:", modelo.score(X, y)) 
-```
-
-En los modelos de regresión lineal simple el valor de R2 se corresponde con el cuadrado del coeficiente de correlación de Pearson (r) entre x e y, no siendo así en regresión múltiple.
 
 > En base a este resultado. ¿Cuán bueno resultó el modelo?
