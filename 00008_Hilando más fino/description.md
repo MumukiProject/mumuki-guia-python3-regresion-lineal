@@ -17,7 +17,7 @@ sns.regplot(x="body_mass_index", y="response", data=diabetes)
   2. El segundo es una medida de confianza que nos dirá cuán _probable_ es que los resultados sean producto de la casualidad. Cuanto más cercana a cero, menos probable es que el resultado sea producto del azar y en la práctica se suele tomar cualquier valor por encima de `0.05` (o `0.01`, si se busca más rigor) como no significativo.
 
 ```python
-# Coeficiente de correlación de Pearson y su p-value
+# Coeficiente de correlación de Pearson y su valor P
 corr, pvalue = pearsonr(
   x = diabetes['body_mass_index'], 
   y = diabetes['response'])
