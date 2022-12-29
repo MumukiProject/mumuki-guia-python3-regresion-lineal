@@ -18,8 +18,8 @@ modelo.fit(X = X.values, y = y)
 Como vemos, primero debemos crear un `modelo` y seguidamente ajustarlo utilizando su operación `fit`, indicando los valores de `X` e `y`.  Luego podremos imprimir los valores encontrados de ordenada al origen (`intercept_`) y la pendiente (el primer valor del vector `coef_`):
 
 ```python
-print("Intercept:", modelo.intercept_)
-print("Coeficiente:", list(zip(X.columns, modelo.coef_.flatten())))
+print("Ordenada:", modelo.intercept_)
+print("Pendiente:", list(zip(X.columns, modelo.coef_.flatten())))
 ```
 
-> Probá el código anterior y respondé. ¿Cuál de las ecuaciones **representa mejor** al modelo obtenido?
+> Copiá y ejecutá el código anterior y respondé. ¿Cuál de las ecuaciones **representa mejor** al modelo obtenido?
