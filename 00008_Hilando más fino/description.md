@@ -11,7 +11,7 @@ sns.regplot(x="body_mass_index", y="response", data=diabetes)
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/diabetes_with_regression_1672268060049.png" alt="diabetes_with_regression_1672268060049.png" width="auto" height="auto">
 
-¡Bien 👍! Podemos ver que la recta ideal parece acompañar a las observaciones. 🧮 Realicemos entonces nuestra segunda prueba, consistente en calcular el _coeficiente de correlación de Pearson_ y su _p-value_: 
+¡Bien 👍! Podemos ver que la recta ideal parece acompañar a las observaciones. 🧮 Realicemos entonces nuestra segunda prueba, consistente en calcular el _coeficiente de correlación de Pearson_ y su _P-value_: 
 
   1. El primero es nuevamente, una medida de co-variación entre las variables, tal que valores absolutos cercanos a 1 indican alta correlación, mientras que los cercanos a 0 indican correlación baja;
   2. El segundo es una medida de confianza que nos dirá cuán probable es que los resultados sean productos de la casualidad. Cuanto más cercana a cero, menos probable es que el resultado sea producto del azar y en la práctica se suele tomar cualquier valor por encima de 0.05 como no significativo.
