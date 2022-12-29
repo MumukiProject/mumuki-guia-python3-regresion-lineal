@@ -1,10 +1,10 @@
-Podemos llevar esta observación a valores concretos, mediante la normalización del RMSE:
+🥱 Si bien podemos interpretar los valores de RMSE teniendo en cuenta la unidad de `y`, ¿no resultaría más cómodo ajustar este valor para que quede expresado de forma adimensional? Así es como surge la métrica _RMSE normalizado_:
 
-RMSE_normalizado = RMSE / (valor máximo - valor mínimo)
+<pre>
+<code>RMSE<sub>normalizado</sub> = RMSE / (y<sub>max</sub> - y<sub>min</sub>)</code>
+</pre>
 
-De este modo podremos obgener valores entre 0 y 1, donde los valores más cercanos a 0 representan modelos de mejor ajuste.
+De este modo podremos obtener valores entre `0` y `1`, donde los valores más cercanos a `0` representan modelos de mejor ajuste.
 
-```python
-rmse_normalizado = rmse / (diabetes["response"].max() - diabetes["response"].min())
-rmse_normalizado
-```
+> Ahora te toca a vos: calculá el valor de RMSE del modelo obtenido en el ejercicio anterior. 
+
