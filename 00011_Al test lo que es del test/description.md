@@ -27,7 +27,7 @@ print("Pendiente:", list(zip(X.columns, modelo.coef_.flatten())))
 ...pero ahora evaluaremos la capacidad predictiva usando el par `(X_test, y_test)`:
 
 ```python
-print("Coeficiente de determinación R²:", modelo.score(X_test.values, y_test))
+print("Coeficiente de determinación R²:", modelo.score(X_test, y_test))
 ```
 
 De esta forma, evitaremos _hacer trampa_ y evaluar al modelo usando los propios datos con lo que fue entrenado 😉.
