@@ -1,4 +1,4 @@
-¿Terminamos? Sí y no :person_shrugging:. Si bien por un lado pudimos establecer que existe un vínculo entre ambas variables (`corr ≈ 0.6`) y que dicho vínculo no parece el mero producto del azar (`pvalue ≪ 0.05`), y por otro pudimos aproximarlo a una recta, aún estamos lejos de haber evaluado completamente al modelo. 🙃 
+¿Terminamos? Sí y no :person_shrugging:. Sí, por un lado pudimos establecer que existe un vínculo entre ambas variables (`corr ≈ 0.6`) y que dicho vínculo no parece el mero producto del azar (`pvalue ≪ 0.05`), y por otro pudimos aproximarlo a una recta, Pero aún estamos lejos de haber evaluado completamente al modelo. 🙃 
 
 ❓ ¡Es que aún hay muchas cosas que no sabemos! Por ejemplo: ¿cuán bueno es el modelo? ¿Los datos caen efectivamente en la recta? ¿Cuánto se alejan de ella? 
 
