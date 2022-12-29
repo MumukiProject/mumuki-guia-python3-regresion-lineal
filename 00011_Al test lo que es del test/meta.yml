@@ -26,6 +26,6 @@ choices:
   value: "<code>R<sup>2</sup></code> es menor"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> a veces es menos, a veces es mayor"
+  value: "<code>R<sup>2</sup></code> a veces es menor, a veces es mayor"
   checked: true
 name: Al test lo que es del test
