@@ -5,7 +5,7 @@
 - name: 'Valor de β₁'
   keys:
     coef:
-      equal: 63.73245584860925
+      equal 975.2769831270359
 - name: 'Valor de R²'
   keys:
     r2:
