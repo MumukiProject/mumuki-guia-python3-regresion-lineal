@@ -1,4 +1,5 @@
-El método  más utilizado para el ajuste del modelo lineal es el de mínimos cuadrados, que identifica como mejor modelo la recta (o plano si es regresión múltiple) que minimiza la suma de los cuadrados de los errores:
+Como vimos anteriormente, el método más utilizado para el ajuste del modelo lineal es el de mínimos cuadrados ordinarios (_OLS_), que identifica como mejor modelo la recta (o plano si es regresión múltiple) que minimiza la suma de los cuadrados de los errores. Su fórmula es la siguiente: 
+
 
 $ϵ^2  = ∑ (yi - ŷi)^2$
 
