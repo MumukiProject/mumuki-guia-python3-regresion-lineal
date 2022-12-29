@@ -17,9 +17,23 @@ X_train, X_test, y_train, y_test = train_test_split(
                                     )
 ```                                    
 
-Luego, usaremos el par `(X_train, y_train)` para ajustar los coeficientes de nuestro regresor:
+Luego, usaremos el par `(X_train, y_train)` para ajustar los coeficientes de nuestro regresor...
 
 ```python
 modelo = LinearRegression()
 modelo.fit(X = X_train, y = y_train)
+print("Ordenada:", modelo.intercept_)
+print("Pendiente:", list(zip(X.columns, modelo.coef_.flatten())))
 ```
+
+...pero ahora evaluaremos podemos evaluar la capacidad predictiva usando el par `(X_test, y_test)`:
+
+```python
+print("Coeficiente de determinación R²:", modelo.score(X_test.values, y_test))
+```
+
+De esta forma, evitaremos _hacer trampa_ y evaluar al modelo usando los propios datos con lo que fue entrenado 😉.
+
+> Veamos si se va entendiendo: entrená nuevamente al modelo, pero siguiendo esta metodología. Probá hacerlo varias veces, con diferentes valores de `random_state`, o directamente sin especificar ningún valor (para que `train_test_split` arroje siempre divisiones al azar diferentes)
+>
+> ¿Ves ahora algún cambio en los coeficientes y en <code>R<sup>2</sup></code>?
