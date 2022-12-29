@@ -34,7 +34,7 @@ SpearmanrResult(correlation=0.5613820101065616, pvalue=4.567023927725032e-38)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EvHiee7gs9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-... mientras que `spearmanr` no tiene esta exigencia, por lo que de ahora en más útilizaremos esta última. 
+... mientras que `spearmanr` no tiene esta exigencia  (la cual deberíamos primero evaluar realizando [una prueba de normalidad como el test de Shapiro-Wilk](https://es.wikipedia.org/wiki/Prueba_de_Shapiro%E2%80%93Wilk)), por lo que de ahora en más útilizaremos esta última. 
 
 
 
