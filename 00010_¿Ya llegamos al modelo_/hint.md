@@ -1,1 +1,1 @@
-Si interpretar `R²` se vuelve dificultoso con la definición anterior, podés pensarlo también como una médida entre `0` y `1` que dice cuánto las observaciones de `x` explican a a las de `y`. :wink:
+Si interpretar <code>R<sup>2</sup></code> se vuelve dificultoso con la definición anterior, podés pensarlo también como una médida entre `0` y `1` que dice cuánto las observaciones de `x` explican a a las de `y`. :wink:
