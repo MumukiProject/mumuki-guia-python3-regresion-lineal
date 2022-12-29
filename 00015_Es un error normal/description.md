@@ -6,5 +6,5 @@
 
 De este modo podremos obtener valores entre `0` y `1`, donde los valores más cercanos a `0` representan modelos de mejor ajuste.
 
-> Ahora te toca a vos: calculá el valor de RMSE del modelo obtenido en el ejercicio anterior. 
+> Ahora te toca a vos: calculá el valor de RMSE<sub>normalizado</sub> del modelo obtenido en el ejercicio anterior. 
 
