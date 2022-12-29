@@ -2,9 +2,10 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: text
+editor: free_form
 type: problem
 extra_visible: false
+language: text
 teacher_info: ''
 manual_evaluation: false
 choices: []

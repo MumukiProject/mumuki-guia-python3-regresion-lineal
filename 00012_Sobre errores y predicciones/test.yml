@@ -1,0 +1,4 @@
+- name: 'Valor de RMSE'
+  keys:
+    rmse:
+      equal: 15
