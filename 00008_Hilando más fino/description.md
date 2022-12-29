@@ -2,7 +2,7 @@ Todo parece indicar que existe un vínculo entre el índice de masa corporal y e
 
 Bueno, si bien tenemos elementos para explorar esa posibilidad, no nos apresuremos 🐢. La relación podría aún no ser **lineal**, o incluso podría no ser _significativa_ y deberse a, lisa y llanamente, la casualidad. :confused: 
 
-Por eso, antes de continuar haremos algunas pruebas más. 📈 Primero, graficaremos las observaciones empleando un `regplot`, que combina un gráfico de dispersión y compara los resultados contra una recta ideal: 
+Por eso, antes de continuar haremos algunas pruebas más. 📈 Primero, graficaremos las observaciones empleando un `regplot`, que combina un gráfico de dispersión y compara los resultados contra una recta ideal de regresión: 
 
 ```python
 # Gráfico de dispersión + regresión, realizado con seaborn
