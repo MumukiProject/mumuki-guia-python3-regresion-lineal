@@ -10,7 +10,7 @@ X = diabetes[['body_mass_index']]
 y = diabetes['response']
 
 modelo = LinearRegression()
-modelo.fit(X = X, y = y)
+modelo.fit(X = X.values, y = y)
 ```
 
 Podemos imprimir los valores de ordenada al origen (`intercept_`) y toda la información de nuestro modelo haciendo:
