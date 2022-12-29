@@ -21,4 +21,4 @@ print("El error (rmse) de test es:", rmse)
 
 ```
 
-> Calculá el valor de `RMSE`
+> Calculá el valor de `RMSE` (entrnado con `random_state = 42`)

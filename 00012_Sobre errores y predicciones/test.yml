@@ -1,4 +1,4 @@
 - name: 'Valor de RMSE'
   keys:
     rmse:
-      equal: 15
+      equal: 63.73245584860925
