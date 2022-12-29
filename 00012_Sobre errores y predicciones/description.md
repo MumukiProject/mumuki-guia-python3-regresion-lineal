@@ -1,24 +1,23 @@
-Como vimos anteriormente, el método más utilizado para el ajuste del modelo lineal es el de mínimos cuadrados ordinarios (_OLS_), que identifica como mejor modelo la recta (o plano si es regresión múltiple) que minimiza la suma de los cuadrados de los errores. Su fórmula es la siguiente: 
+Como mencionamos anteriormente, el método más utilizado para el ajuste del modelo lineal es el de mínimos cuadrados ordinarios (_OLS_), que identifica como mejor modelo la recta (o plano si es regresión múltiple) que minimiza la suma de los cuadrados de los errores...
 
-$ϵ^2  = ∑ (yi - ŷi)^2$
+<pre>
+<code>ε<sup>2</sup> = ∑ (yi - ŷi)<sup>2</sup></code>
+</pre>
 
-Es  decir,  la  suma  de  los  cuadrados  de  las  diferencias  entre  los  valores  reales  observados  (yi)  y los valores estimados (ŷi). Entonces podemos usar ese error como otro parámetro para entender la bondad del modelo.
+...donde  <code>y<sub>i</sub></code> son los valores observados e <code>ŷ<sub>i</sub></code>, los valores estimados. 
 
-
-¿Pero cómo podemos saber si las predicciones son buenas o malas? Pues podemos calcular el error, teniendo en cuenta el valor predicho y respecto de un valor observado o conocido. El error cuadrático medio (RMSE) mide la cantidad de error que hay entre dos conjuntos de datos:
+Pero esta fórmula tiene una doble utilidad, porque podemos partir de ella para generar otro parámetro de la bondad del modelo: la raíz del error cuadrático medio (_RMSE_, por sus siglas en inglés). El RMSE mide justamente la raíz cuadrada del error (<code>∑ (yi - ŷi)<sup>2</sup></code>), promediado. Nuevamente `scikit-learn` nos provee una función `mean_squared_error` para asistirnos con este cálculo:
 
 ```python
-# gracias a la division train test, nos permite contrastar 
 y_pred = modelo.predict(X = X_test)
 
 rmse = mean_squared_error(
-        y_true  = y_test,
-        y_pred  = y_pred,
-        squared = False
-       )
+  y_true  = y_test,
+  y_pred  = y_pred,
+  squared = False
+)
 
-print("El error (rmse) de test es:", rmse)
-
+print("RMSE:", rmse)
 ```
 
-> Calculá el valor de `RMSE` (entrnado con `random_state = 42`)
+> Ahora te toca a vos: generá una nueva partición `train / test` de `75% / 25%` y `random_state = 42` y detallá los parámetros obtenidos.  
