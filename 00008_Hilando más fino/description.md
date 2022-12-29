@@ -21,8 +21,8 @@ sns.regplot(x="body_mass_index", y="response", data=diabetes)
 corr, pvalue = pearsonr(
   x = diabetes['body_mass_index'], 
   y = diabetes['response'])
-print("Coeficiente de correlación de Pearson: ", corr) 
-print("P-value: ", pvalue) 
+print("Coeficiente de correlación de Pearson:", corr) 
+print("P-value:", pvalue) 
 ```
 
 > Ejecutá esta nueva prueba y comparala con la correlación que calculaste anteriormente con `corr()`. ¿Qué conclusiones podés sacar?
