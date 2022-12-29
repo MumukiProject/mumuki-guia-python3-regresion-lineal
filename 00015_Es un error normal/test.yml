@@ -1,4 +1,4 @@
 - name: 'Valor de RMSE normalizado'
   keys:
     rmse:
-      equal: 15
+      equal: 0.19854347616389173
