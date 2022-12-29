@@ -1,6 +1,6 @@
 Todo parece indicar que existe un vínculo entre el índice de masa corporal y el avance de la diabetes en los pacientes de este lote de datos. Con esto en mente, ya podemos intentar expresar este vínculo como `response = f(body_mass_index)`, siendo `f` una función lineal, ¿no? 😀
 
-Sí y no: si bien tenemos elementos para explorar esa posibilidad, no nos apresuremos 🐢. La relación podría aún no ser **lineal**, o incluso podría no ser _significativa_ y deberse a, lisa y llanamente, la casualidad.
+Bueno, si bien tenemos elementos para explorar esa posibilidad, no nos apresuremos 🐢. La relación podría aún no ser **lineal**, o incluso podría no ser _significativa_ y deberse a, lisa y llanamente, la casualidad. :confused: 
 
 Por eso, antes de continuar haremos algunas pruebas más. 📈 Primero, graficaremos las observaciones empleando un `regplot`, que combina un gráfico de dispersión y compara los resultados contra una recta ideal: 
 
