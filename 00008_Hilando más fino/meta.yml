@@ -11,18 +11,18 @@ manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El resultado **es  significativo** y el valor de `pearsonr` **coincide**
-    con el obtenido con `corr()`
+    con el obtenido mediante `corr()`
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El resultado **no es significativo** y el valor de `pearsonr` **coincide**
-    con el obtenido con `corr()`
+    con el obtenido mediante `corr()`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El resultado **es significativo** y el valor de `pearsonr` **no coincide**
-    con el obtenido con `corr()`
+    con el obtenido mediante `corr()`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El resultado **no es significativo** y el valor de `pearsonr` **no coincide**
-    con el obtenido con `corr()`
+    con el obtenido mediante `corr()`
   checked: false
 name: Hilando más fino
