@@ -11,8 +11,8 @@ manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`body_mass_index` explica perfectamente la respuesta"
-  checked: true
+  checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`body_mass_index` no explica perfectamente la respuesta"
-  checked: false
+  checked: true
 name: "¿Ya llegamos al modelo?"
