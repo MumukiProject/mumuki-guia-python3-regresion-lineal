@@ -14,7 +14,7 @@
   keys:
     significance:
       equal: Existe una relación y es significativa 
-- name: 'Significancia de la relación entre <code>period</code> y <code>messages_count</code>'
+- name: 'RMSE<sub>normalizado</sub> luego de separar y entrenar con <code>train_size = 0.75, random_state = 13</code>'
   keys:
     rmsenorm:
       equal: 0.11149153477082896 
