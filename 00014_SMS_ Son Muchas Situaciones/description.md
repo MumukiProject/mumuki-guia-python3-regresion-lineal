@@ -1,4 +1,4 @@
-Acabamos de tener una introducción a la regresión lineal simple, donde exploramos varios aspectos como el análisis de correlación y significancia, el modelo matemático subyacente, una metodología de división en entrenamiento y prueba, y algunas formas de evaluar el error y la capacidad predictiva del modelo. Y esto es sólo la punta del iceberg 🧊. ¡Hay muchas cuestiones aún que no hemos cubierto! Por ejemplo: 
+Acabamos de tener una introducción a la regresión lineal simple, pero esto es sólo la punta del iceberg 🧊. ¡Hay muchas cuestiones aún que no hemos cubierto! Por ejemplo: 
 
   * El ajuste de modelos de regresión lineal múltiple; 
   * La validación de la distribución de los datos (para saber si son normales o no parámetricos y saber qué métricas de correlación usar);
