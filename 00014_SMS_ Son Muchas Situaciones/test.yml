@@ -17,7 +17,7 @@
 - name: 'RMSE<sub>normalizado</sub> luego de separar y entrenar con <code>train_size = 0.75, random_state = 13</code>'
   keys:
     rmsenorm:
-      match: 0.11149 
+      match: 0\.11149 
 
 
 
