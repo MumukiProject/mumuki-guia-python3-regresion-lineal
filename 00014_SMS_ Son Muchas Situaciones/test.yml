@@ -6,3 +6,7 @@
   keys:
     direction:
       equal: Son inversamente proporcionales 
+- name: 'pvalue de la correlación entre period y message_count, calculado usando <code>spearmanr</code>'
+  keys:
+    pvalue:
+      equal: Son inversamente proporcionales 
