@@ -14,7 +14,7 @@ Y ahora probemos con un índice de masa corporal ["normal" según la OMS](https:
 1881.9868473136542
 ```
 
-¿Qué, qué? ¡Esto no puede estar bien! El máximo valor de `response` era de aproximadamente 300:
+¿Qué, qué? ¡Esto no puede estar bien! El máximo valor de `response` es de aproximadamente 350:
 
 ```python
 max(diabetes["response"])
