@@ -5,7 +5,7 @@ Ahora que validamos gráfica y numéricamente que la correlación es significati
  - la recta que minimice la distancia `ε` entre las observaciones de `x` y ésta;
  - encontrar los valores de los coeficientes de regresión que maximizan la probabilidad de que la recta prediga los valores observados.
 
-El método  más utilizado para ésto es el de mínimos cuadrados ordinarios (o _OLS_, por sus siglas en inglés) y `sckit-learn` lo implementa mediante `LinearRegression()`:
+El método  más utilizado para ésto es el de mínimos cuadrados ordinarios (o _OLS_, por sus siglas en inglés) y `scikit-learn` lo implementa mediante `LinearRegression()`:
 
 ```python
 X = diabetes[['body_mass_index']]
