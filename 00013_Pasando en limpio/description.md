@@ -48,6 +48,6 @@ Ahora los resultados tienen más sentido :clap::
 190.17295167042818
 ```
 
-> Ahora te toca a vos: escribí otra versión de la función `predecir_respuesta`, pero que esta vez no utilice el `modelo` del último ejercicio sino sus valores de β<sub>0</sub> u β<sub>1</sub>. 
+> Ahora te toca a vos: escribí otra versión de la función `predecir_respuesta`, pero que esta vez no utilice el `modelo` del último ejercicio sino sus valores de <code>β<sub>0</sub></code> y <code>β<sub>1</sub></code>. 
 > 
 
