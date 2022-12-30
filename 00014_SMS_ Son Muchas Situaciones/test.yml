@@ -9,4 +9,4 @@
 - name: 'pvalue de la correlación entre period y message_count, calculado usando <code>spearmanr</code>'
   keys:
     pvalue:
-      equal: Son inversamente proporcionales 
+      equal: Menor a 0.0001 

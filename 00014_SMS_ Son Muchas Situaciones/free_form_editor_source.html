@@ -13,8 +13,13 @@
   </fieldset>  
   <fieldset>
     <label for="pvalue">¿Cuál es el valor p (<em>p-value</em>) de esta correlación?</label>
-    <input type="number" min="0" name="pvalue" class="form-control mu-free-form-input mu-inline-input">
-  </fieldset>  
+    <select name="pvalue" class="form-control mu-free-form-input mu-inline-select">
+      <option selected>Entre 0 y 0.1</option>
+      <option>Entre 0.1 y 0.01</option>
+      <option>Entre 0.01 y 0.001</option>
+      <option>Entre 0.001 y 0.0001</option>
+      <option>Menor a 0.0001</option>
+    </select>  </fieldset>  
   <fieldset>
     <label for="significance">¿Es signitiva esta relación?</label>
     <select name="significance" class="form-control mu-free-form-input mu-inline-select">
