@@ -14,3 +14,10 @@
   keys:
     significance:
       equal: Existe una relación y es significativa 
+- name: 'Significancia de la relación entre <code>period</code> y <code>messages_count</code>'
+  keys:
+    rmsenorm:
+      equal: 0.11149153477082896 
+
+
+
