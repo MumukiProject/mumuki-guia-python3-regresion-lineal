@@ -1,4 +1,4 @@
-- name: 'Correlación entre <code>period</coode> y <code>messages_count</code>, en valores absolutos, calculada usando <code>spearmanr</code> y usando todos su dígitos'
+- name: 'Correlación entre <code>period</code> y <code>messages_count</code>, en valores absolutos, calculada usando <code>spearmanr</code> y usando todos su dígitos'
   keys:
     spearman:
       match: 0[.,]9964438122332858 
