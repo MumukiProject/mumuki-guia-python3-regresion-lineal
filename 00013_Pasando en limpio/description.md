@@ -35,7 +35,6 @@ def transformar_imc(imc):
   # te invitamos a que lo deduzcas usando lo que vimos en esta lección 🤭
   return (imc / 92.78055277) - 26.375791855203694
 
-
 def predecir_respuesta(imc):
   return modelo.predict([[transformar_imc(imc)]])[0]
 ```
