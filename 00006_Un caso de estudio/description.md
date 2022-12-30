@@ -1,4 +1,4 @@
-Para continuar aprendiendo qué es y cómo se implementa un modelo de **regresión lineal simple**, utilizaremos un lote de datos bien conocido y usado en la literatura, [_Diabetes_](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html), que mide cuantitativamente el grado de avance a lo largo de un año de la enfermedad en 442 pacientes. Para ello, vamos a primero importar algunas bibliotecas, además de nuestra ya bien conocida `pandas`:
+Para continuar aprendiendo qué es y cómo se implementa un modelo de **regresión lineal simple**, utilizaremos un lote de datos bien conocido y usado en la literatura, [_Diabetes_](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html), que mide cuantitativamente el grado de avance a lo largo de un año de la enfermedad en 442 pacientes. Para ello, vamos primero a importar algunas bibliotecas, además de nuestra ya bien conocida `pandas`:
  
   * 🔢 `scipy`: una biblioteca de algoritmos matemáticos, muy útiles en el campo de la ciencia de datos; 
   * 📈 `seaborn`, `matplotlib`: herramientas de graficación que complementan y extienden a las operaciones `.plot` provistas por `pandas`;
