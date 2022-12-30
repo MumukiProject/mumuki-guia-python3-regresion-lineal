@@ -26,7 +26,7 @@ Otra forma útil de visualizar estas correlaciones es mediante un [_mapa de calo
 
 (:eyes: _observá la tercera columna de la última fila, o lo que es lo mismo, la tercera fila de la última columna_)
 
-Para generalo, podés hacer lo siguiente: 
+Para generarlo, podés hacer lo siguiente: 
 
 ```python
 sns.heatmap(correlaciones.abs())
