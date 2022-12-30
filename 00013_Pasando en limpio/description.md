@@ -39,10 +39,15 @@ def predecir_respuesta(imc):
   return modelo.predict([[transformar_imc(imc)]])[0]
 ```
 
-> Ahora te toca a vos: escribí otra versión de la función `predecir_respuesta`, pero que esta vez no utilice el `modelo` generado sino los coeficiente que obtuviste en tu cuaderno y que funcione así: 
+Ahora los resultados tienen más sentido :clap:: 
+
+```python
+ム predecir_respuesta(20)
+85.05642088787117
+ム predecir_respuesta(30)
+190.17295167042818
+```
+
+> Ahora te toca a vos: escribí otra versión de la función `predecir_respuesta`, pero que esta vez no utilice el `modelo` del último ejercicio sino sus valores de β<sub>0</sub> u β<sub>1</sub>. 
 > 
-> ```python
-> ム response(0)
-> 154.0752867556298
-> ```
 
