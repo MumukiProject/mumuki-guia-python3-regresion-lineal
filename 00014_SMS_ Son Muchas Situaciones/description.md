@@ -5,7 +5,7 @@ Acabamos de tener una introducción a la regresión lineal simple, pero esto es 
   * La determinación de intervalos entre los que las predicciones son válidas;
   * El uso de variables `x` categóricas;
   * El filtrado de valores fuera de serie;
-  * La aplicación de transformaciones para posibilitar aplicar modelos de regresión lineal en (algunas) relaciones que no lo son a primera vista. 
+  * La aplicación de transformaciones para posibilitar aplicar modelos de regresión lineal sobre (algunas) relaciones que, a primera vista, no lo son. 
 
 :link: Para continuar explorando estas temáticas, dejamos [este material complementario](https://www.cienciadedatos.net/documentos/py10-regresion-lineal-python.html) de Joaquín Amat Rodrigo.  
  
