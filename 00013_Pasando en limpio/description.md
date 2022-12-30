@@ -25,7 +25,7 @@ max(diabetes["response"])
 
 _(...) each of these 10 feature variables have been mean centered and scaled (...)_ (_cada una de estas 10 variables han sido centradas y escaladas_)
 
-¡Allí está el problema! El valor del índice de masa corporal fue transformado. Pero a no deseperar, que podemos revertir la transformación así: 
+¡Allí está el problema! El valor del índice de masa corporal fue transformado. Pero a no desesperar, que podemos revertir la transformación así: 
 
 ```python
 def transformar_imc(imc):
