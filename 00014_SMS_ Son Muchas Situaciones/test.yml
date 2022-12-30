@@ -1,4 +1,4 @@
-- name: '¿En cuántas regiones se instalaron antenas en estas décadas?'
+- name: 'Correlación entre period y messages_count, en valores absolutos, calculada usando spearmanr y usando todos su dígitos'
   keys:
     count:
-      equal: 15  
+      equal: 0.9964438122332858 
