@@ -25,7 +25,7 @@ max(diabetes["response"])
 
 _(...) each of these 10 feature variables have been mean centered and scaled (...)_ (_cada una de estas 10 variables han sido centradas y escaladas_)
 
-¡Allí está el problema! El valor del índice de masa corporal fue transformado. Pero a no deseperar, que podemos revertirlo así. 
+¡Allí está el problema! El valor del índice de masa corporal fue transformado. Pero a no deseperar, que podemos revertir la transformación así: 
 
 ```python
 def transformar_imc(imc):
@@ -39,7 +39,6 @@ def transformar_imc(imc):
 def predecir_respuesta(imc):
   return modelo.predict([[transformar_imc(imc)]])[0]
 ```
-
 
 > Ahora te toca a vos: escribí otra versión de la función `predecir_respuesta`, pero que esta vez no utilice el `modelo` generado sino los coeficiente que obtuviste en tu cuaderno y que funcione así: 
 > 
