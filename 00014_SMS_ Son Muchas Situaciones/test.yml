@@ -1,12 +1,12 @@
-- name: 'Correlación entre period y messages_count, en valores absolutos, calculada usando spearmanr y usando todos su dígitos'
+- name: 'Correlación entre <code>period</coode> y <code>messages_count</code>, en valores absolutos, calculada usando <code>spearmanr</code> y usando todos su dígitos'
   keys:
     spearman:
-      equal: 0.9964438122332858 
-- name: 'Dirección de la relación entre period y messages_count'
+      match: 0[.,]9964438122332858 
+- name: 'Dirección de la relación entre <code>period</coode> y <code>messages_count</code>'
   keys:
     direction:
       equal: Son inversamente proporcionales 
-- name: 'pvalue de la correlación entre period y message_count, calculado usando <code>spearmanr</code>'
+- name: '<em>pvalue</em> de la correlación entre period y <code>message_count</code>, calculado usando <code>spearmanr</code>'
   keys:
     pvalue:
       equal: Menor a 0.0001 
