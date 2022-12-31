@@ -6,8 +6,6 @@ Para continuar aprendiendo qué es y cómo se implementa un modelo de **regresi�
 
 ```python
 import pandas as pd
-import numpy as np
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 
