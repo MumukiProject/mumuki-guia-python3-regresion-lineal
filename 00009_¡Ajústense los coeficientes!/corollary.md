@@ -17,7 +17,7 @@
 ...con el que conformará la expresión lineal:
 
 <pre>
-<code>y = f(X) = β<sub>0</sub> + β<sub>1</sub> × x<sub>1</sub>, β<sub>2</sub> × x<sub>2</sub>, ,..., β<sub>n</sub> × x<sub>n</sub></code>
+<code>y = f(X) = β<sub>0</sub> + β<sub>1</sub> × x<sub>1</sub>, β<sub>2</sub> × x<sub>2</sub>,..., β<sub>n</sub> × x<sub>n</sub></code>
 </pre>
 
 Pero como estamos trabajando con regresiones lineales simples, tenemos una **única** `x` (sí, en minúsculas) las cosas nos quedan más... simples :stuck_out_tongue_closed_eyes::
