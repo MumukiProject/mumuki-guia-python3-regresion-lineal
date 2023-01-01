@@ -7,7 +7,7 @@ diabates.corr()
 diabates.corr('pearson')
 ```
 
-Pero bien se podría usar otro método, como por ejemplo el coeficiente de correlación de Spearman (`'spearman'`): 
+...pero bien se podría usar otro método, como por ejemplo el coeficiente de correlación de Spearman (`'spearman'`): 
 
 ```python
 ム diabetes.corr('spearman')['body_mass_index']['response']
