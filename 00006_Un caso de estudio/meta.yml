@@ -19,7 +19,7 @@ choices:
   value: La tabla `diabetes` tiene 11 columnas
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Es posible generar un modelo de regresión lineal simple que relaciones todas
+  value: Es posible generar un modelo de regresión lineal simple que relacione todas
     sus variables
   checked: false
 name: Un caso de estudio
