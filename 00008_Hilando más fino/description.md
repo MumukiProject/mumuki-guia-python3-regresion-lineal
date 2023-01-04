@@ -14,7 +14,7 @@ sns.regplot(x="body_mass_index", y="response", data=diabetes)
 ¡Bien 👍! Podemos ver que la recta ideal parece acompañar a las observaciones. 🧮 Realicemos entonces nuestra segunda prueba, consistente en calcular el _coeficiente de correlación de Pearson_ y su _valor P_ (o en inglés, _P-value_): 
 
   1. El primero es nuevamente, una medida de co-variación entre las variables, tal que valores absolutos cercanos a `1` indican alta correlación, mientras que los cercanos a `0` indican correlación baja;
-  2. El segundo es una medida de confianza que nos dirá cuán _probable_ es que los resultados sean producto de la casualidad. Cuanto más cercana a cero, menos probable es que el resultado sea producto del azar y en la práctica se suele tomar cualquier valor por encima de `0.05` (o `0.01`, si se busca más rigor) como no significativo.
+  2. El segundo es una medida de confianza que nos dirá cuán _probable_ es que los resultados sean producto de la casualidad. Cuanto más cercana a cero, menos probable es que el resultado sea producto del azar. En la práctica se suele considerar no significativo a cualquier resultado con _pvalue_ por encima de `0.05` (o `0.01`, si se busca más rigor).
 
 ```python
 # Coeficiente de correlación de Pearson y su valor P

@@ -10,7 +10,7 @@ diabates.corr('pearson')
 ...pero bien se podría usar otro método, como por ejemplo el coeficiente de correlación de Spearman (`'spearman'`): 
 
 ```python
-ム diabetes.corr('spearman')['body_mass_index']['response']
+ム diabetes.corr('spearman')['response']
 age                          0.197822
 sex                          0.037401
 body_mass_index              0.561382
