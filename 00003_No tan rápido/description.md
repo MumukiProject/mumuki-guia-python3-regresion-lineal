@@ -1,4 +1,4 @@
-El aprendizaje automático es parte de una rama más amplia de las ciencias de la computación: la _inteligencia artificial_. Y lejos de las visiones distópicas, de todas formas, es importante recalcar que ni este conjunto de técnicas, ni la necesaria recopilación de datos para su uso práctico, ni la inteligencia artificial, por más útiles que resulten, están plagadas de sesgos y riesgos. 
+El aprendizaje automático es parte de una rama más amplia de las ciencias de la computación: la _inteligencia artificial_. Y lejos de las visiones distópicas, de todas formas, es importante recalcar que ni este conjunto de técnicas, ni la necesaria recopilación de datos para su uso práctico, ni la inteligencia artificial, por más útiles que resulten, están libres de sesgos y riesgos. 
 
 :projector: Dejamos a continuación algunos enlaces para consultar: 
 
