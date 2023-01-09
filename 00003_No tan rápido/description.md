@@ -7,3 +7,4 @@ El aprendizaje automático es parte de una rama más amplia de las ciencias de l
  * [¿Estamos automatizando el racismo?](https://www.youtube.com/watch?v=Ok5sKLXqynQ)
 
 
+> ¿Qué conclusiones poés sacar?
