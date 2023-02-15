@@ -2,7 +2,7 @@
 
 
 ```python
-ム correlaciones['response']
+ムcorrelaciones['response']
 age                          0.187889
 sex                          0.043062
 body_mass_index              0.586450 # <= esta es la correlación que nos interesa

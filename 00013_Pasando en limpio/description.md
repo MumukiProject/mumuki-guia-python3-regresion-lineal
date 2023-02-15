@@ -10,7 +10,7 @@ def predecir_respuesta(imc):
 Y ahora probemos con un índice de masa corporal ["normal" según la OMS](https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal): 
 
 ```python
-ム predecir_respuesta(20)
+ムpredecir_respuesta(20)
 1881.9868473136542
 ```
 
@@ -42,9 +42,9 @@ def predecir_respuesta(imc):
 Ahora los resultados tienen más sentido :clap:: 
 
 ```python
-ム predecir_respuesta(20)
+ムpredecir_respuesta(20)
 85.05642088787117
-ム predecir_respuesta(30)
+ムpredecir_respuesta(30)
 190.17295167042818
 ```
 
