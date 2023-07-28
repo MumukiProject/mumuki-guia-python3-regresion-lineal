@@ -10,10 +10,8 @@ teacher_info: ''
 manual_evaluation: false
 progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`body_mass_index` explica perfectamente la respuesta"
+- value: "`body_mass_index` explica perfectamente la respuesta"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`body_mass_index` no explica perfectamente la respuesta"
+- value: "`body_mass_index` no explica perfectamente la respuesta"
   checked: true
 name: "¿Ya llegamos al modelo?"

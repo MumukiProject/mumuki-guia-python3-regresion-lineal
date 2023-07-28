@@ -1,7 +1,7 @@
 ---
 locale: es
 tags: []
-layout: :input_bottom
+layout: input_bottom
 editor: 0
 type: reading
 extra_visible: false
